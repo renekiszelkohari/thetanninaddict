@@ -236,3 +236,60 @@ button .navbar-toggler {
 .video-frame {
     margin: 1%;
 }
+
+/*************WINE UP-FORM************/
+
+
+
+.form-container {
+    height: 100vh;
+    background-color: #591111;
+}
+
+.wine-up-welcome-text {
+    margin-top: 15%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: #efbf77;
+}
+
+.wine-up-welcome-text h2 {
+    font-weight: bold;
+    
+}
+
+.wine-up-welcome-text h2, p {
+    font-size: 125%;
+    padding: 2%;
+    background-color: #efbf77;
+}
+
+.wine-up-form {
+    text-align: center;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: #efbf77;
+}
+
+.form-group label {
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.form-group #name, #email, #description {
+    background-color: #f7d29b;
+    font-size: 120%;
+    font-style: italic;
+    text-align: center;
+}   
+
+.wine-up-form button{
+    color: #fff;
+    background-color: #591111;
+    font-size: 120%;
+}
+
+.wine-up-form button:hover {
+    color: #591111;
+    background-color: #f7d29b;
+}
