@@ -154,3 +154,30 @@ button .navbar-toggler {
 .card-body a {
     color: #682913;
 }
+
+/*************FOOTER************/
+
+.footer {
+    padding: 0.5%;
+    background-color: #ff9d00;
+}
+
+.copy-right {
+    color:rgb(202, 69, 17);
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+
+.footer-icons {
+    color: rgb(202, 69, 17);   
+    font-size: 110%;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.footer-icons:hover {
+    color: #682913;
+}
