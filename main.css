@@ -1,0 +1,50 @@
+/*
+COLORS:
+<bacground for nav, quote, footer, card>
+-light-brown-cream: rgb(247, 210, 155); #f7d29b;
+-option b: rgb(239, 191, 119); #efbf77;
+
+ rgb(89, 17, 17); #591111;
+
+-brown-warm: rgb(202, 69, 17); #ca4511;
+-dark-brown: rgb(104, 41, 19); #682913;
+*/
+
+
+body {
+    font-family: 'EB Garamond', serif;
+    background-color:#efbf77;
+}
+
+/*************NAVBAR************/
+
+#main-nav {   
+    background-color:#ff9d00;/*#f7d29b;*/
+}
+
+.navbar .navbar-brand {
+    color: #ca4511;
+    font-weight: bold;
+}
+
+#navbar-content {
+    text-align: center;
+}
+
+#navbar-content a {
+    color: #ca4511;
+}
+
+#navbar-content a:hover {
+    color: #591111;
+}
+
+.nav-item a {
+    color: #682913;
+    font-weight: bold;
+    color: mx-auto;
+}
+
+button .navbar-toggler {
+    color: #682913;
+}
