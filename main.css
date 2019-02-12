@@ -91,3 +91,26 @@ button .navbar-toggler {
     background-color: #ff9d00; /*#efbf77;*/
     color: #682913;
 }
+
+/*************QOUTE************/
+
+.quote {
+    background-color:#f7d29b;
+}
+
+.blockquote {
+    padding: 1%;
+    background-color: #f7d29b;
+}
+
+
+
+.blockquote p {
+    color:#ca4511;
+    background-color: #f7d29b;
+}
+
+.blockquote footer {
+    color:#682913;
+}
+
