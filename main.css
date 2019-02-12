@@ -114,3 +114,43 @@ button .navbar-toggler {
     color:#682913;
 }
 
+/*************MAIN************/
+
+.main {
+    background-image: url("static/images/DSCN0295.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;   
+}
+
+.main-content {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.card-single {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10%;
+    background-color: #f7d29b;
+}
+
+.card-single:hover {
+    background-color: #efbf77;
+}
+
+.card-body {  
+    color: #c42f05;
+}
+.card-body .card-title {
+    font-weight: bold;
+}
+
+.card-body p {
+    background-color: transparent;
+}
+
+.card-body a {
+    color: #682913;
+}
