@@ -181,3 +181,58 @@ button .navbar-toggler {
 .footer-icons:hover {
     color: #682913;
 }
+
+/*************ABOUT************/
+
+.about-container {
+    height: 100vh;
+    background-color: #f7d29b;
+}
+
+.jumbo-about, .about-text {
+    color: #591111;
+}
+
+/*************ARTICLES************/
+
+.article-wrapper {
+    background-color: #591111;
+}
+
+.article-text {
+    color: #591111;
+    background-color: #f1e8db;
+    padding: 1%;  
+}
+
+.article-text h4, h5 {
+    text-align: center;
+}
+
+.article-text h4 {
+    padding: 1%;
+}
+
+.article-text p {
+    background-color: #f1e8db;
+}
+
+.article-text .article-date {
+    text-align: right;
+}
+
+.article-picture {
+    margin: 0;
+}
+
+/*************IMAGES************/
+
+.image-container {
+    margin-top: 1%;
+}
+
+/*************VIDEOS************/
+
+.video-frame {
+    margin: 1%;
+}
