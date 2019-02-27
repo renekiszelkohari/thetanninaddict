@@ -131,14 +131,22 @@ body {
 
 /*************ABOUT************/
 
-.about-container {
-    height: 100vh;
-    background-color: #f7d29b;
+.about {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
-.jumbo-about,
-.about-text {
-    color: #591111;
+.about h1, h2 {
+    margin-bottom: 2rem;
+}
+
+.about p {
+    font-size: 1.25rem
+}
+
+.about img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /*************ARTICLES************/
