@@ -169,10 +169,28 @@ body {
     margin-bottom: 1rem;
 }
 
+/*************IMAGES************/
+
+.image-container {
+    margin-top: 5rem;
+}
+
+.image-row {
+    margin-bottom: 1rem;
+}
+
+.image-row .gallery-img {
+    padding-bottom: 0.75rem;
+}
+
 /*************VIDEOS************/
 
+.video-container {
+    margin-top: 5rem;
+}
+
 .video-frame {
-    margin: 1%;
+    margin: 1rem;
 }
 
 /*************WINE UP-FORM************/
