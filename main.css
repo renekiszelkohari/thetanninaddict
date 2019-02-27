@@ -149,43 +149,24 @@ body {
     margin-bottom: 1rem;
 }
 
-/*************ARTICLES************/
-
-.article-wrapper {
-    background-color: #591111;
-}
+/*************ARTICLES1************/
 
 .article-text {
-    color: #591111;
-    background-color: #f1e8db;
-    padding: 1%;
+    margin-top: 4rem; 
 }
 
-.article-text h4,
-h5 {
-    text-align: center;
+.article-text h3 {
+    margin-top: 0.5rem;
 }
 
-.article-text h4 {
-    padding: 1%;
+.article-text p.text-justify {
+    font-size: 1.25rem;
 }
 
-.article-text p {
-    background-color: #f1e8db;
-}
-
-.article-text .article-date {
-    text-align: right;
-}
-
-.article-picture {
-    margin: 0;
-}
-
-/*************IMAGES************/
-
-.image-container {
-    margin-top: 1%;
+.article-text img {
+    width: 20rem;
+    height: auto;
+    margin-bottom: 1rem;
 }
 
 /*************VIDEOS************/
