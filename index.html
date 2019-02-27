@@ -12,153 +12,125 @@
 </head>
 
 <body>
-    <!-----------------------NAVBAR---------------->
-
-
-    <nav class="navbar navbar-expand-lg navbar-light" id="main-nav">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light my-orange-back">
         <div class="container">
-
-            <a class="navbar-brand mr-auto" href="index.html">TheTanninAddict</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
+            <a class="navbar-brand mr-auto font-weight-bold">TheTanninAddict</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
             <div class="collapse navbar-collapse" id="navbar-content">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                <ul class="navbar-nav ml-auto font-weight-bold text-center">
+                    <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="articles.html">Articles</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="images.html">Images</a>
                             <a class="dropdown-item" href="videos.html">Videos</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="form.html">Wine Up!</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="form.html">Ask!</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-----------------------HEADER---------------->
-
-    <div class="container header">
-
-        <div class="jumbotron jumbo-text d-none d-sm-block">
-
+    <div class="container-fluid header text-center">
+        <div class="jumbotron d-none d-md-block my-orange my-transparent-back">
             <h1 class="display-1">The Tannin Addict</h1>
-            <p class="lead">
-                <a class="btn btn-lg" href="form.html" role="button">Wine Up To My Newsletter!</a>
-            </p>
-
+            <a class="btn btn-lg my-black my-orange-back" href="form.html" role="button">Questions About Wines?</a>
         </div>
-
     </div>
-
-    <!-----------------------QUOTE---------------->
 
     <div class="container-fluid">
-        <div class="container quote d-none d-sm-block">
+        <div class="container quote d-none d-md-block my-white-back my-brown">
             <div class="row text-center">
-                <div class="col">
-                    <blockquote class="blockquote mx-auto">
-                        <p class="qoute-text"><em>"One barrel of wine can work more miracles <br> than a church full of saints."</em></p>
-                        <footer class="blockquote-footer"><strong>italian proverb</strong></footer>
-                    </blockquote>
+                <blockquote class="blockquote mx-auto">
+                    <p class="quote-text"><em>"One barrel of wine can work more miracles <br> than a church full of
+              saints."</em></p>
+                    <footer class="blockquote-footer my-brown"><strong>italian proverb</strong></footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-6">
+                <div class="card my-white-back">
+                    <div class="card-body">
+                        <h3 class="card-title">Ice cold or room temperature?</h3>
+                        <img src="static/images/DSCN0299.JPG" class="img-fluid" alt="Thermometer">
+                        <p class="card-text text-justify">The temperature of wine is one of my pet hates. I mean I do like when certain wine served the right temperature but... </p>
+                        <a href="articles1.html#cold-or-room-temp" class="btn float-right my-black font-weight-bold">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="card my-white-back">
+                    <div class="card-body">
+                        <h3 class="card-title">Cork or screwcap?</h3>
+                        <img src="static/images/DSCN0316.JPG" class="img-fluid" alt="Cork and screwcap">
+                        <p class="card-text text-justify">I have seen it many times when people giving a satisfied look when they realise the bottle they got, ordered, chose has...</p>
+                        <a href="articles1.html#cork-or-screwcap" class="btn float-right my-black font-weight-bold">read more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class=" col-md-6">
+                <div class="card my-white-back">
+                    <div class="card-body">
+                        <h3 class="card-title">Why wine will always taste better with a decent cheese platter?</h3>
+                        <img src="static/images/DSCN0271.JPG" class="img-fluid" alt="Wine and cheese">
+                        <p class="card-text text-justify">Why, oh why would it taste better? Or worse? To be honest it is not entirely my point... </p>
+                        <a href="articles1.html#wine-with-cheese-platter" class="btn  float-right my-black font-weight-bold">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-6">
+                <div class="card my-white-back">
+                    <div class="card-body">
+                        <h3 class="card-title">Sweet, dry, medium?</h3>
+                        <img src="static/images/DSCN0315.JPG" class="img-fluid" alt="Wine bottles">
+                        <p class="card-text text-justify">It seems to me, and it is not just a bit funny, that people consider dry wine somehow superior or more sophisticated. 9 out of 10 will aim to order... </p>
+                        <a href="articles1.html#sweet-dry-medium" class="btn float-right my-black font-weight-bold">read more...</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-----------------------MAIN---------------->
-
-    <div class="container main">
-        <div class="container">
-
-            <div class="row main-content text-center">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="card card-single">
-                        <div class="card-body">
-                            <h4 class="card-title">Ice cold or room temperature?</h4>
-                            <img src="static/images/DSCN0299.JPG" class="img-fluid rounded-circle" alt="Thermometer">
-                            <p class="card-text">The temperature of wine is one of my pet hates. I mean I do like when certain wine served the right temperature but... </p>
-                            <a href="articles1.html#cold-or-room-temp" class="btn float-right">more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="card card-single">
-                        <div class="card-body">
-                            <h4 class="card-title">Cork or screwcap?</h4>
-                            <img src="static/images/DSCN0316.JPG" class="img-fluid rounded-circle" alt="Cork and screwcap">
-                            <p class="card-text">I have seen it many times when people giving a satisfied look when they realise the bottle they got, ordered, chose has a cork in it, rather than...</p>
-                            <a href="articles1.html#cork-or-screwcap" class="btn float-right">more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="card card-single">
-                        <div class="card-body">
-                            <h4 class="card-title">Why wine will always taste better with a decent cheese platter?</h4>
-                            <img src="static/images/DSCN0271.JPG" class="img-fluid rounded-circle" alt="Wine and cheese">
-                            <p class="card-text">Why, oh why would it taste better? Or worse? To be honest it is not entirely my point... </p>
-                            <a href="articles1.html#wine-with-cheese-platter" class="btn  float-right">more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="card card-single">
-                        <div class="card-body">
-                            <h4 class="card-title">Sweet, dry, medium?</h4>
-                            <img src="static/images/DSCN0315.JPG" class="img-fluid rounded-circle" alt="Wine bottles">
-                            <p class="card-text">It seems to me, and it is not just a bit funny, that people consider dry wine somehow superior or more sophisticated. 9 out of 10 will aim to order... </p>
-                            <a href="articles1.html#sweet-dry-medium" class="btn float-right">more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-
-    <!-----------------------FOOTER---------------->
-
-    <div class="container-fluid footer">
+    <div class="container-fluid footer my-orange-back">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-4 text-center">
-                    <div class="copy-right "><span class="footer-icons>">Copyright &copy TheTanninAddict 2019</span></div>
+                <div class="col-md-6 col-lg-4 text-center text-md-left">
+                    <div class="font-weight-bold"><span class="footer-icons>">Copyright &copy; TheTanninAddict
+              2019</span></div>
                 </div>
-                <div class="col-md-4 col-lg-3 ml-auto text-center">
-                    <div class="row">
-                        <div class="col-sm-4"><a href="#"><span class="footer-icons">Facebook</span></a></div>
-                        <div class="col-sm-4"><a href="#"><span class="footer-icons">Twitter</span></a></div>
-                        <div class="col-sm-4"><a href="#"><span class="footer-icons">YouTube</span></a></div>
+                <div class="col-md-6 col-lg-3 ml-auto">
+                    <div class="row font-weight-bold text-center">
+                        <div class="col-sm-4"><a href="#"><span class="footer-icons my-black">Facebook</span></a></div>
+                        <div class="col-sm-4"><a href="#"><span class="footer-icons my-black">Twitter</span></a></div>
+                        <div class="col-sm-4"><a href="#"><span class="footer-icons my-black">YouTube</span></a></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

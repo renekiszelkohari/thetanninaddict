@@ -1,59 +1,63 @@
-/*
-COLORS:
-<bacground for nav, quote, footer, card>
--light-brown-cream: rgb(247, 210, 155); #f7d29b;
--option b: rgb(239, 191, 119); #efbf77;
+/************COLORS*************/
 
- rgb(89, 17, 17); #591111;
+.my-transparent-back {
+    background-color: transparent;
+}
 
--brown-warm: rgb(202, 69, 17); #ca4511;
--dark-brown: rgb(104, 41, 19); #682913;
-*/
+.my-black {
+    color: #000;
+}
 
+.my-black:hover {
+    color: #000;
+}
+
+.my-white {
+    color: #f8eede;
+}
+
+.my-white-back {
+    background-color: #f8eede;
+}
+
+.my-yellow-back {
+    background-color: #efbf77;
+}
+
+.my-orange {
+    color: #ff9d00;
+}
+
+.my-orange-back {
+    background-color: #ff9d00;
+}
+
+.my-brown {
+    color: #682913;
+}
+
+.my-red-back {
+    background-color: #7c0707;
+}
+
+/*************BODY************/
 
 body {
     font-family: 'EB Garamond', serif;
-    background-color:#efbf77;
+    background-color: #efbf77;
 }
 
 /*************NAVBAR************/
 
-#main-nav {   
-    background-color:#ff9d00;/*#f7d29b;*/
-}
-
-.navbar .navbar-brand {
-    color: #ca4511;
-    font-weight: bold;
-}
-
-#navbar-content {
-    text-align: center;
-}
-
-#navbar-content a {
-    color: #ca4511;
-}
-
-#navbar-content a:hover {
-    color: #591111;
-}
-
-.nav-item a {
-    color: #682913;
-    font-weight: bold;
-    color: mx-auto;
-}
-
-button .navbar-toggler {
-    color: #682913;
+.navbar-brand,
+.nav-link {    
+    font-size: 1.25rem;
 }
 
 /*************HEADER************/
 
 .header {
-    height: 100%; 
-    background-image:  url("static/images/DSCN0293.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("static/images/DSCN0293.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -61,125 +65,68 @@ button .navbar-toggler {
     position: relative;
 }
 
-.jumbotron {
-    background-color: transparent;
-    
-}
-
-.jumbo-text {
-    position: relative;
-    top: 20%;
-    text-align: center;
+.jumbotron {  
+    padding-top: 10rem;
+    padding-bottom: 6rem;
 }
 
 .jumbotron h1 {
-    color: #ff9d00; /*#f70909; 591111*/
-    font-weight: bold;
-    font-size: 615%;
-    letter-spacing: 20px;
-
-    /*dark red f70909
-    bright yellow ead919*/
+    letter-spacing: 0.75rem;    
 }
 
-.jumbo-text .lead {
-    margin-top: 10%;
-    background-color: transparent;
-}
-
-.jumbotron .lead .btn {
-    background-color: #ff9d00; /*#efbf77;*/
-    color: #682913;
+.jumbotron .btn {   
+    margin-top: 3rem;
+    margin-bottom: 6rem;
 }
 
 /*************QOUTE************/
 
 .quote {
-    background-color:#f7d29b;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.blockquote {
-    padding: 1%;
-    background-color: #f7d29b;
-}
-
-
-
-.blockquote p {
-    color:#ca4511;
-    background-color: #f7d29b;
-}
-
-.blockquote footer {
-    color:#682913;
+.quote-text,
+.blockquote-footer { 
+    font-size: 1.4rem;
 }
 
 /*************MAIN************/
 
-.main {
-    background-image: url("static/images/DSCN0295.JPG");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;   
+.card {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border: none;
 }
 
-.main-content {
-    padding-top: 4%;
-    padding-bottom: 4%;
+.card-body img {
+    width: 15rem;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.card-single {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    border-radius: 10%;
-    background-color: #f7d29b;
+.card-text {   
+    font-size: 1.25rem;
 }
 
-.card-single:hover {
-    background-color: #efbf77;
-}
-
-.card-body {  
-    color: #c42f05;
-}
-.card-body .card-title {
-    font-weight: bold;
-}
-
-.card-body p {
-    background-color: transparent;
-}
-
-.card-body a {
-    color: #682913;
+.card-body .btn {
+    font-size: 1.1rem;
 }
 
 /*************FOOTER************/
 
 .footer {
-    padding: 0.5%;
-    background-color: #ff9d00;
-}
-
-.copy-right {
-    color:rgb(202, 69, 17);
-    font-weight: bold;
+    padding: 0.5rem 0;   
 }
 
 .footer a:hover {
     text-decoration: none;
 }
 
-.footer-icons {
-    color: rgb(202, 69, 17);   
-    font-size: 110%;
-    font-weight: bold;
-    border-radius: 50%;
-}
-
-.footer-icons:hover {
-    color: #682913;
+.footer-icons {   
+    font-size: 1.2rem;
 }
 
 /*************ABOUT************/
@@ -189,7 +136,8 @@ button .navbar-toggler {
     background-color: #f7d29b;
 }
 
-.jumbo-about, .about-text {
+.jumbo-about,
+.about-text {
     color: #591111;
 }
 
@@ -202,10 +150,11 @@ button .navbar-toggler {
 .article-text {
     color: #591111;
     background-color: #f1e8db;
-    padding: 1%;  
+    padding: 1%;
 }
 
-.article-text h4, h5 {
+.article-text h4,
+h5 {
     text-align: center;
 }
 
@@ -239,8 +188,6 @@ button .navbar-toggler {
 
 /*************WINE UP-FORM************/
 
-
-
 .form-container {
     height: 100vh;
     background-color: #591111;
@@ -255,10 +202,11 @@ button .navbar-toggler {
 
 .wine-up-welcome-text h2 {
     font-weight: bold;
-    
+
 }
 
-.wine-up-welcome-text h2, p {
+.wine-up-welcome-text h2,
+p {
     font-size: 125%;
     padding: 2%;
     background-color: #efbf77;
@@ -276,14 +224,16 @@ button .navbar-toggler {
     font-weight: bold;
 }
 
-.form-group #name, #email, #description {
+.form-group #name,
+#email,
+#description {
     background-color: #f7d29b;
     font-size: 120%;
     font-style: italic;
     text-align: center;
-}   
+}
 
-.wine-up-form button{
+.wine-up-form button {
     color: #fff;
     background-color: #591111;
     font-size: 120%;
