@@ -57,7 +57,7 @@ body {
 /*************HEADER************/
 
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("static/images/DSCN0293.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("image/images/DSCN0293.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
