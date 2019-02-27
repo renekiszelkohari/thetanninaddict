@@ -3,13 +3,11 @@
 In this project I am creating a **wine blog**. If you like wines and intrested in an expertises thoughts about *tasting* it, *making* it, the *science* behind it, or you just simply like *traveling*, then this website is for you. Even if wine is not your cup of tea you will still find plenty of interesting information about places as potential holdiday destinations. Have a peek at the *gallery* to dismiss your doubts. 
 
 
-## UX
+## UX:
 
-This website is for my wife. She has come to a decision to go pro as a blogger. For that reason she needs a wbsite where she can express her thoughts  about anything related to wines.
+This website is for my wife. She has come to a decision to go pro as a blogger. For that reason she needs a website where she can express her thoughts  about anything related to wines.
 
 The ultimate goal is to provide visitors visually catching website with lots of interesting articles provided with plenty of photos and videos.
-
-
 
 
 ## Features:
@@ -44,24 +42,31 @@ The ultimate goal is to provide visitors visually catching website with lots of 
 - Visual Studio Code - for editing parts of the project [link](https://code.visualstudio.com)
 
 
-## Testing
+## Testing:
 
 1. Contact form:
-    i. Go to "sign up page" by clicking on the "Wine Up!" button in navigation or the "Wine Up To My Newsletter!" button in        jumbotron.
-    ii. If submitting the form without name or email error message comes up to fill in the field. 
-    iii. If @ is missing from the email address, message comes up to include it. Warning message comes up if email address is       incomplete.
+    i. Go to "questions form" by clicking on the "Ask!" button in navigation or the "Questions About Wines?" button in jumbotron.
+    ii. If submitting the form without valid email error message comes up to fill in the field. 
+    iii. If @ is missing from the email address, message comes up to include it. Warning message comes up if email address is incomplete.
+
+2. Articles:
+    i. Click on "read more..." button on landing page at the bottom of the articles
+    ii. They will take you to the articles page and exactly to the cliccked article
 
 
-## Deployment
+## Deployment:
 - 
 
-## Credits
+
+## Credits:
 
 ### Content
 - The articles were written by my wife.
+- The about content was written by me.
 
 ### Media
 - All photos used in this site were captured by me and my wife.
+- One photo in about page is from [link](https://erzsebetpince.hu)
 - The videos were obtained from YouTube
 
 ### Acknowledgements
