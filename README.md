@@ -44,6 +44,8 @@ The ultimate goal is to provide visitors visually catching website with lots of 
 
 ## Testing:
 
+- Manually tested
+
 1. Contact form:
     i. Go to "questions form" by clicking on the "Ask!" button in navigation or the "Questions About Wines?" button in jumbotron.
     ii. If submitting the form without valid email error message comes up to fill in the field. 
