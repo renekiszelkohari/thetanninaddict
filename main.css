@@ -43,6 +43,8 @@
 /*************BODY************/
 
 body {
+    height: 100%;
+    margin: 0;
     font-family: 'EB Garamond', serif;
     background-color: #efbf77;
 }
@@ -79,7 +81,7 @@ body {
     margin-bottom: 6rem;
 }
 
-/*************QOUTE************/
+/*************SECTION-QOUTE************/
 
 .quote {
     margin-top: 1.5rem;
@@ -92,7 +94,7 @@ body {
     font-size: 1.4rem;
 }
 
-/*************MAIN************/
+/*************MAIN/READMORE************/
 
 .card {
     margin-top: 3rem;
@@ -113,6 +115,10 @@ body {
 
 .card-body .btn {
     font-size: 1.1rem;
+}
+
+.article-one {
+    margin-top: 3rem;
 }
 
 /*************FOOTER************/
@@ -149,7 +155,7 @@ body {
     margin-bottom: 1rem;
 }
 
-/*************ARTICLES1************/
+/*************ARTICLES************/
 
 .article-text {
     margin-top: 4rem; 
@@ -215,4 +221,12 @@ body {
     width: 10rem;  
     margin-top: 0.5rem;
     font-size: 1.25rem;
+}
+
+/************MEDIA QUERIES*********/
+
+@media (min-width: 768px) {
+    .article-two {
+        margin-top: 3rem;
+    }
 }
