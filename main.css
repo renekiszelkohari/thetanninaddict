@@ -118,7 +118,7 @@ body {
 }
 
 .article-one {
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 /*************FOOTER************/
@@ -223,6 +223,10 @@ body {
 /************MEDIA QUERIES*********/
 
 @media (min-width: 768px) {
+    .article-one {
+        margin-top: 3rem;
+    }
+
     .article-two {
         margin-top: 3rem;
     }
