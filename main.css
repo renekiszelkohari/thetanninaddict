@@ -202,12 +202,8 @@ body {
 
 /*************QUESTION-FORM************/
 
-.form-container {
-    height: 100vh;
-}
-
 .form-box { 
-    padding-top: 10rem;
+    padding-top: 7rem;
 }
 
 .form-box h1 {
@@ -219,7 +215,7 @@ body {
 }
 
 .form-box .btn {
-    width: 10rem;  
+    width: 5rem;  
     margin-top: 0.5rem;
     font-size: 1.25rem;
 }
@@ -229,5 +225,11 @@ body {
 @media (min-width: 768px) {
     .article-two {
         margin-top: 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .about {
+        padding-top: 2rem;
     }
 }
